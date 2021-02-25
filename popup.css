@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', Sans;
+  font-size: 10pt;
+  margin: 10px;
+}
+
+body.popup {
+  margin: 0px;
+}
+
+#container {
+  padding: 0px;
+  margin: 0px;
+}
+
+table.popup-main-menu {
+  width: 250px;
+}
+
+table.popup-sub-menu {
+  width: 250px;
+}
+
+td {
+  font-family: 'Open Sans', Sans;
+  font-size: 10pt;
+  vertical-align: top;
+}
+
+td.menu-item {
+  font-size: 10pt;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #fff;
+  margin-left: 8px;
+  padding: 0 8px;
+}
+
+td.menu-item:hover {
+  background-color: #eee;
+}
+
+td.menu-selected {
+  font-weight: 600;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
